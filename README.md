@@ -1,4 +1,4 @@
-# postcss插件集合
+# postcss常用插件集成
 
 ## 插件列表
 - postcss-mixins
@@ -23,3 +23,13 @@
 - postcss-color-rgba-fallback
 - postcss-opacity
 - cssnano
+
+## Options
+```js
+{
+  [name]: opt,
+  "autoprefixer": true,
+  "compact": false,
+  "optimise": false
+}
+```
